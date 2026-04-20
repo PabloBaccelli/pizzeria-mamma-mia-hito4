@@ -1,0 +1,38 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #222;
+  color: white;
+  padding: 10px 20px;
+}
+
+/* grupos */
+.nav-left,
+.nav-right {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+/* título */
+.nav-left h2 {
+  margin: 0;
+  font-size: 18px;
+}
+
+/* botones */
+button {
+  background: transparent;
+  border: 1px solid #fff;
+  color: white;
+  padding: 6px 10px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+/* hover bonito */
+button:hover {
+  background: white;
+  color: black;
+}
